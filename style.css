@@ -1,0 +1,95 @@
+
+ body {
+    background-color: #5A236C;
+    background-image: linear-gradient(to bottom right, #392270, #E9275B);
+    font-family: 'Bellota Text', cursive;
+    text-align: center;
+    color: #FFF;
+  }
+  
+  .title {
+    font-size: 20px;
+    text-shadow: 0 0 13px #FFF;
+  }
+.flex-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(96, 79, 252, 0.082), white);
+  }
+  .grid {
+    width: 80%;
+    height: 80%;
+    display: grid;
+    background-color: white;
+  }
+  .grid:hover {
+    cursor: pointer;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+    width: 60vw;
+    height: 60vw;
+    max-width: 600px;
+    max-height: 600px;
+  }
+ 
+  .buttons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 0.3em 1.2em;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  button:hover {
+    cursor: pointer;
+  }
+  .bb {
+    background-color: black;
+    color: white;
+  }
+  .bb:hover {
+    background-color: white;
+    color: black;
+  }
+  .wb {
+    background-color: rgba(128, 128, 128, 0.411);
+    color: black;
+  }
+  .wb:hover {
+    background-color: rgb(95, 95, 95);
+    color: white;
+  }
+  .rb {
+    background-color:crimson;
+    color: white;
+  }
+  .rb:hover {
+    background-color:crimson;
+    color: white;
+  }
+  .cb {
+    background-color: rgba(128, 128, 128, 0.411);
+    color: black;
+  }
+  .cb:hover {
+    background-color: rgb(95, 95, 95);
+    color: white;
+  }
+  
+  input {
+    width: 50px;
+  }
+  .error {
+    display: none;
+  }
